@@ -17,3 +17,8 @@ start-ubuntu
 #lllllll
 apt install software-properties-common
 
+add-apt-repository ppa:fex-emu/fex
+
+apt update
+
+yes | apt install fex-emu-armv8.0
