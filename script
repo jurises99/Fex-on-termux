@@ -1,9 +1,0 @@
-echo ""
-echo -e " automatic installation, please wait..." & sleep 3
-echo ""
-clear
-echo -e ""
-termux-setup-storage & sleep 3 &>/dev/null
-yes | pkg update && pkg upgrade -y
-pkg install wget proot git -y
-
