@@ -7,3 +7,4 @@ termux-setup-storage & sleep 3 &>/dev/null
 yes | pkg update && pkg upgrade -y
 pkg install wget proot git -y
 
+curl -o install https://raw.githubusercontent.com/jurises99/Fex-on-termux/main/script/ubuntu && chmod +x install && ./install
