@@ -5,6 +5,10 @@ clear
 echo -e ""
 termux-setup-storage & sleep 3 &>/dev/null
 yes | pkg update && pkg upgrade -y
-pkg install wget proot git -y
+pkg install wget proot -y
+
+curl -o start-ubuntu https://raw.githubusercontent.com/jurises99/Fex-on-termux/main/script/start-ubuntu &>/dev/null
+chmod +x start-ubuntu
+mv start-ubuntu $PREFIX/bin
 
 curl -o install https://raw.githubusercontent.com/jurises99/Fex-on-termux/main/script/ubuntu && chmod +x install && ./install
