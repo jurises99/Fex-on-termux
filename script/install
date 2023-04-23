@@ -11,4 +11,4 @@ curl -o start-ubuntu https://raw.githubusercontent.com/jurises99/Fex-on-termux/m
 chmod +x start-ubuntu
 mv start-ubuntu $PREFIX/bin
 
-curl -o install https://raw.githubusercontent.com/jurises99/Fex-on-termux/main/script/ubuntu && chmod +x install && ./install
+curl -o ubuntu https://raw.githubusercontent.com/jurises99/Fex-on-termux/main/script/ubuntu && chmod +x ubuntu && ./ubuntu
