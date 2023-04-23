@@ -115,13 +115,10 @@ printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;83m[Installer thread/INFO]:\e[0m
 printf "\e[0m"
 
 }
-if [ "$1" = "-y" ];then
-install1
-elif [ "$1" = "" ];then
 install1
 exit
 fi
 else
-printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;203m[ERROR]:\e[0m \x1b[38;5;87m Installation aborted.\n"
+printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;203m[ERROR]:\e[0m \x1b[38;5;87m Installed.\n"
 printf "\e[0m"
 fi
