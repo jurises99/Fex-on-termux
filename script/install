@@ -21,4 +21,6 @@ add-apt-repository ppa:fex-emu/fex
 
 apt update
 
-yes | apt install fex-emu-armv8.0
+apt install fex-emu-armv8.0
+
+FEXRootFSFetcher
