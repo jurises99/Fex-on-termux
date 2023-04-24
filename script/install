@@ -15,11 +15,13 @@ curl -o ubuntu https://raw.githubusercontent.com/jurises99/Fex-on-termux/main/sc
 start-ubuntu
 
 #lllllll
+
+apt update
 apt install software-properties-common
 
 add-apt-repository ppa:fex-emu/fex
 
-apt update
+
 
 apt install fex-emu-armv8.0
 
